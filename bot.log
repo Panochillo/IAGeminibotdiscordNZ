@@ -1,0 +1,140 @@
+[2025-08-30T22:30:53.731Z] [INFO] Loaded command: ask
+[2025-08-30T22:30:53.732Z] [INFO] Loaded command: image
+[2025-08-30T22:30:53.733Z] [ERROR] Failed to login to Discord: {
+  "code": "TokenInvalid"
+}
+[2025-08-30T22:39:19.993Z] [INFO] Loaded command: ask
+[2025-08-30T22:39:19.995Z] [INFO] Loaded command: image
+[2025-08-30T22:39:20.583Z] [ERROR] Failed to login to Discord: {}
+[2025-08-30T22:39:42.856Z] [INFO] Loaded command: ask
+[2025-08-30T22:39:42.858Z] [INFO] Loaded command: image
+[2025-08-30T22:39:43.437Z] [ERROR] Failed to login to Discord: {}
+[2025-08-30T22:40:05.022Z] [INFO] Loaded command: ask
+[2025-08-30T22:40:05.024Z] [INFO] Loaded command: image
+[2025-08-30T22:40:05.999Z] [ERROR] Failed to login to Discord: {}
+[2025-08-30T22:40:25.848Z] [INFO] Loaded command: ask
+[2025-08-30T22:40:25.850Z] [INFO] Loaded command: image
+[2025-08-30T22:40:26.495Z] [ERROR] Failed to login to Discord: {}
+[2025-08-30T22:40:41.356Z] [INFO] Loaded command: ask
+[2025-08-30T22:40:41.358Z] [INFO] Loaded command: image
+[2025-08-30T22:40:41.976Z] [ERROR] Failed to login to Discord: {}
+[2025-08-30T22:41:16.070Z] [INFO] Loaded command: ask
+[2025-08-30T22:41:16.071Z] [INFO] Loaded command: image
+[2025-08-30T22:41:16.705Z] [INFO] GeminiAIBot#2268 is online and ready!
+[2025-08-30T22:41:16.707Z] [INFO] Serving 0 guilds with 1 users
+[2025-08-30T22:41:16.709Z] [INFO] Started refreshing application (/) commands.
+[2025-08-30T22:41:18.367Z] [INFO] Successfully reloaded application (/) commands.
+[2025-08-30T22:41:51.687Z] [INFO] Loaded command: ask
+[2025-08-30T22:41:51.688Z] [INFO] Loaded command: image
+[2025-08-30T22:41:52.262Z] [INFO] GeminiAIBot#2268 is online and ready!
+[2025-08-30T22:41:52.262Z] [INFO] Serving 0 guilds with 1 users
+[2025-08-30T22:41:52.263Z] [INFO] Started refreshing application (/) commands.
+[2025-08-30T22:41:52.554Z] [INFO] Successfully reloaded application (/) commands.
+[2025-08-30T22:46:40.979Z] [INFO] Processing question from panochillo: Cual es tu funcion?
+[2025-08-30T22:46:47.481Z] [INFO] Successfully responded to question from panochillo
+[2025-08-30T22:46:47.482Z] [INFO] Command ask executed by panochillo
+[2025-08-30T22:50:53.367Z] [INFO] Generating image for panochillo: Crea una imajen con mi foto de perfil
+[2025-08-30T22:50:53.368Z] [INFO] Generating image with prompt: Crea una imajen con mi foto de perfil
+[2025-08-30T22:50:57.566Z] [INFO] Image generation text response: I will create an image incorporating your profile picture. The image will be visually attractive and arranged effectively.
+
+[2025-08-30T22:50:57.570Z] [INFO] Image saved successfully to: /home/runner/workspace/temp/generated_1756594253367_1291714952540721172.png
+[2025-08-30T22:50:58.458Z] [INFO] Successfully generated image for panochillo
+[2025-08-30T22:50:58.459Z] [INFO] Command image executed by panochillo
+[2025-08-30T22:51:58.500Z] [INFO] Cleaned up temporary file: generated_1756594253367_1291714952540721172.png
+[2025-08-30T22:52:25.405Z] [INFO] Generating image for panochillo: Crea una Aurora boreal con una pareja de chicos besandose
+[2025-08-30T22:52:25.406Z] [INFO] Generating image with prompt: Crea una Aurora boreal con una pareja de chicos besandose
+[2025-08-30T22:52:28.832Z] [INFO] Image generation text response: I will generate a detailed image depicting a vibrant Aurora Borealis illuminating the night sky above a silhouette of a young couple kissing tenderly. The scene will be set against a backdrop of a serene, dark landscape, emphasizing the colorful light display and the intimate moment between the two figures.
+
+
+[2025-08-30T22:52:28.834Z] [INFO] Image saved successfully to: /home/runner/workspace/temp/generated_1756594345405_1291714952540721172.png
+[2025-08-30T22:52:29.360Z] [INFO] Successfully generated image for panochillo
+[2025-08-30T22:52:29.361Z] [INFO] Command image executed by panochillo
+[2025-08-30T22:53:29.369Z] [INFO] Cleaned up temporary file: generated_1756594345405_1291714952540721172.png
+[2025-08-31T11:50:29.211Z] [INFO] Loaded command: ask
+[2025-08-31T11:50:29.228Z] [INFO] Loaded command: image
+[2025-08-31T11:50:29.829Z] [INFO] GeminiAIBot#2268 is online and ready!
+[2025-08-31T11:50:29.830Z] [INFO] Serving 0 guilds with 1 users
+[2025-08-31T11:50:29.830Z] [INFO] Started refreshing application (/) commands.
+[2025-08-31T11:50:30.156Z] [INFO] Successfully reloaded application (/) commands.
+[2025-08-31T11:51:00.201Z] [INFO] Loaded command: ask
+[2025-08-31T11:51:00.203Z] [INFO] Loaded command: image
+[2025-08-31T11:51:00.786Z] [INFO] GeminiAIBot#2268 is online and ready!
+[2025-08-31T11:51:00.787Z] [INFO] Serving 0 guilds with 1 users
+[2025-08-31T11:51:00.787Z] [INFO] Started refreshing application (/) commands.
+[2025-08-31T11:51:01.028Z] [INFO] Successfully reloaded application (/) commands.
+[2025-08-31T11:51:41.801Z] [INFO] Processing question from panochillo: hola
+[2025-08-31T11:51:43.711Z] [INFO] Successfully responded to question from panochillo
+[2025-08-31T11:51:43.711Z] [INFO] Command ask executed by panochillo
+[2025-08-31T11:56:40.656Z] [INFO] Generating image for panochillo: Aurora boreal
+[2025-08-31T11:56:40.657Z] [INFO] Generating image with prompt: Aurora boreal
+[2025-08-31T11:56:45.131Z] [INFO] Image generation text response: I will generate a visually stunning image of the aurora borealis. The sky will be a deep, clear night blue, filled with vibrant, flowing curtains of green and hints of purple and pink light. Wisps of these ethereal lights will dance across the frame, creating a sense of wonder and magic. The composition will be wide, showcasing the vastness of the night sky and the dynamic movement of the aurora.
+
+
+[2025-08-31T11:56:45.133Z] [INFO] Image saved successfully to: /home/runner/workspace/temp/generated_1756641400656_1291714952540721172.png
+[2025-08-31T11:56:45.951Z] [INFO] Successfully generated image for panochillo
+[2025-08-31T11:56:45.951Z] [INFO] Command image executed by panochillo
+[2025-08-31T11:57:45.970Z] [INFO] Cleaned up temporary file: generated_1756641400656_1291714952540721172.png
+[2025-08-31T12:05:22.404Z] [INFO] Loaded command: ask
+[2025-08-31T12:05:22.406Z] [INFO] Loaded command: image
+[2025-08-31T12:05:23.001Z] [INFO] GeminiAIBot#2268 is online and ready!
+[2025-08-31T12:05:23.001Z] [INFO] Serving 0 guilds with 1 users
+[2025-08-31T12:05:23.002Z] [INFO] Started refreshing application (/) commands.
+[2025-08-31T12:05:23.284Z] [INFO] Successfully reloaded application (/) commands.
+[2025-08-31T12:07:12.724Z] [INFO] Processing question from panochillo: Hola
+[2025-08-31T12:07:14.375Z] [INFO] Successfully responded to question from panochillo
+[2025-08-31T12:07:14.375Z] [INFO] Command ask executed by panochillo
+[2025-08-31T12:11:02.418Z] [INFO] Generating image for panochillo: Hazme una icono para mi bot de discord IA
+[2025-08-31T12:11:02.418Z] [INFO] Generating image with prompt: Hazme una icono para mi bot de discord IA
+[2025-08-31T12:11:06.818Z] [INFO] Image generation text response: I will generate a visually appealing and well-composed icon for your Discord AI bot. The icon will be detailed and suitable for a general audience.
+
+[2025-08-31T12:11:06.820Z] [INFO] Image saved successfully to: /home/runner/workspace/temp/generated_1756642262417_1291714952540721172.png
+[2025-08-31T12:11:08.089Z] [INFO] Successfully generated image for panochillo
+[2025-08-31T12:11:08.090Z] [INFO] Command image executed by panochillo
+[2025-08-31T12:12:08.105Z] [INFO] Cleaned up temporary file: generated_1756642262417_1291714952540721172.png
+[2025-08-31T12:12:09.339Z] [INFO] Generating image for panochillo: Haz un icono de bot
+[2025-08-31T12:12:09.340Z] [INFO] Generating image with prompt: Haz un icono de bot
+[2025-08-31T12:12:12.456Z] [INFO] Image generation text response: I will generate a visually appealing and detailed icon of a robot, suitable for general audiences. The robot will have a friendly and approachable design with smooth lines and perhaps a small, expressive face. The color palette will be clean and modern, possibly using shades of blue, grey, and white. The icon will be well-composed and easily recognizable even at smaller sizes.
+
+
+[2025-08-31T12:12:12.457Z] [INFO] Image saved successfully to: /home/runner/workspace/temp/generated_1756642329339_1291714952540721172.png
+[2025-08-31T12:12:13.154Z] [INFO] Successfully generated image for panochillo
+[2025-08-31T12:12:13.154Z] [INFO] Command image executed by panochillo
+[2025-08-31T12:13:10.617Z] [INFO] Generating image for panochillo: Haz un icono de bot para mi bot de discord
+[2025-08-31T12:13:10.618Z] [INFO] Generating image with prompt: Haz un icono de bot para mi bot de discord
+[2025-08-31T12:13:13.155Z] [INFO] Cleaned up temporary file: generated_1756642329339_1291714952540721172.png
+[2025-08-31T12:13:14.641Z] [INFO] Image saved successfully to: /home/runner/workspace/temp/generated_1756642390617_1291714952540721172.png
+[2025-08-31T12:13:15.323Z] [INFO] Successfully generated image for panochillo
+[2025-08-31T12:13:15.323Z] [INFO] Command image executed by panochillo
+[2025-08-31T12:14:15.346Z] [INFO] Cleaned up temporary file: generated_1756642390617_1291714952540721172.png
+[2025-08-31T12:22:10.517Z] [INFO] Processing question from panochillo: hola
+[2025-08-31T12:22:12.043Z] [INFO] Successfully responded to question from panochillo
+[2025-08-31T12:22:12.044Z] [INFO] Command ask executed by panochillo
+[2025-08-31T12:33:40.324Z] [INFO] Loaded command: ask
+[2025-08-31T12:33:40.326Z] [INFO] Loaded command: image
+[2025-08-31T12:33:40.923Z] [INFO] GeminiAIBot#2268 is online and ready!
+[2025-08-31T12:33:40.925Z] [INFO] Serving 0 guilds with 1 users
+[2025-08-31T12:33:40.926Z] [INFO] Started refreshing application (/) commands.
+[2025-08-31T12:33:41.349Z] [INFO] Successfully reloaded application (/) commands.
+[2025-08-31T12:34:08.532Z] [INFO] Loaded command: ask
+[2025-08-31T12:34:08.535Z] [INFO] Loaded command: image
+[2025-08-31T12:34:09.264Z] [INFO] GeminiAIBot#2268 is online and ready!
+[2025-08-31T12:34:09.264Z] [INFO] Serving 0 guilds with 1 users
+[2025-08-31T12:34:09.264Z] [INFO] Started refreshing application (/) commands.
+[2025-08-31T12:34:09.510Z] [INFO] Successfully reloaded application (/) commands.
+[2025-08-31T12:37:31.247Z] [INFO] Loaded command: ask
+[2025-08-31T12:37:31.249Z] [INFO] Loaded command: image
+[2025-08-31T12:37:31.262Z] [INFO] Uptime Robot server running on port 5000
+[2025-08-31T12:37:31.829Z] [INFO] GeminiAIBot#2268 is online and ready!
+[2025-08-31T12:37:31.829Z] [INFO] Serving 0 guilds with 1 users
+[2025-08-31T12:37:31.831Z] [INFO] Started refreshing application (/) commands.
+[2025-08-31T12:37:32.076Z] [INFO] Successfully reloaded application (/) commands.
+[2025-08-31T12:41:10.210Z] [INFO] Loaded command: ask
+[2025-08-31T12:41:10.211Z] [INFO] Loaded command: image
+[2025-08-31T12:41:10.214Z] [INFO] Uptime Robot server running on port 5000
+[2025-08-31T12:41:10.696Z] [INFO] GeminiAIBot#2268 is online and ready!
+[2025-08-31T12:41:10.696Z] [INFO] Serving 0 guilds with 1 users
+[2025-08-31T12:41:10.696Z] [INFO] Started refreshing application (/) commands.
+[2025-08-31T12:41:11.089Z] [INFO] Successfully reloaded application (/) commands.
+[2025-08-31T12:41:21.284Z] [INFO] Processing question from panochillo: Hola
+[2025-08-31T12:41:23.454Z] [INFO] Successfully responded to question from panochillo
+[2025-08-31T12:41:23.455Z] [INFO] Command ask executed by panochillo
