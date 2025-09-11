@@ -1,4 +1,4 @@
-const { GoogleGenAI, Modality } = require('@google/genai');
+const { GoogleGenerativeAI } = require("@google/generative-ai");
 const fs = require('fs');
 const config = require('../config/config.js');
 const logger = require('./logger.js');
