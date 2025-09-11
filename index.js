@@ -69,8 +69,8 @@ async function registerCommands() {
         );
         
         logger.info('Successfully reloaded application (/) commands.');
-    } catch (error) {
-        logger.error('Error registering commands:', error);
+   } catch (error) {
+  console.error("[ERROR] Error registrando comandos:", error.rawError || error);
     }
 }
 
