@@ -59,7 +59,7 @@ for (const file of commandFiles) {
 // Register slash commands
 const rest = new REST().setToken(config.DISCORD_TOKEN);
 
-async function registerCommands() {
+async function registerCommands() => {
     try {
         logger.info('Started refreshing application (/) commands.');
         
