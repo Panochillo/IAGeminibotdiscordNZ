@@ -64,7 +64,7 @@ async function registerCommands() {
         logger.info('Started refreshing application (/) commands.');
         
         await rest.put(
-            Routes.applicationCommands(config.CLIENT_ID),
+            Routes.applicationGuildCommands(config.CLIENT_ID, config.GUILD_ID),
             { body: commands },
         );
         
