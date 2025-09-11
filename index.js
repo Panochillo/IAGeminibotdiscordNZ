@@ -69,9 +69,10 @@ async function registerCommands() {
         );
         
         logger.info('Successfully reloaded application (/) commands.');
-   } catch (error) {
-  console.error("[ERROR] Error registrando comandos:", error.rawError || error);
-    }
+ } catch (error) {
+  console.error("[ERROR] Error registrando comandos:");
+  console.error(error);
+  console.error(JSON.stringify(error, null, 2));
 }
 
 // Bot ready event
