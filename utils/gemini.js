@@ -4,9 +4,10 @@ const config = require('../config/config.js');
 const logger = require('./logger.js');
 
 // Initialize Gemini AI client
-const ai = new GoogleGenAI({ 
-    apiKey: process.env.GEMINI_API_KEY || config.GEMINI_API_KEY || "" 
+const ai = new GoogleGenerativeAI({
+    apiKey: process.env.GEMINI_API_KEY || config.GEMINI_API_KEY || ""
 });
+
 
 /**
  * Ask Gemini AI a question and get a text response
