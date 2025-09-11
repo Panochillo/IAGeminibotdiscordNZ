@@ -1,0 +1,4 @@
+0000000000000000000000000000000000000000 1d6c5edefc09c6a461f87e7ffe591948724771e4 familiaquesadam <42167951-familiaquesadam@users.noreply.replit.com> 1756592918 +0000	commit (initial): Initial commit
+1d6c5edefc09c6a461f87e7ffe591948724771e4 aefc44744e8623091efe57b2273879bf2b799c1d familiaquesadam <42167951-familiaquesadam@users.noreply.replit.com> 1756593736 +0000	commit: Add Gemini AI capabilities to the Discord bot
+aefc44744e8623091efe57b2273879bf2b799c1d 857b4ba9043b93ad2d0fe7956ddb33b580d7675a familiaquesadam <42167951-familiaquesadam@users.noreply.replit.com> 1756643659 +0000	commit: Update bot to respond in Spanish and stay online 24/7
+857b4ba9043b93ad2d0fe7956ddb33b580d7675a 8fc4579b5246a0b0f462536516cc3aa86a906b76 familiaquesadam <42167951-familiaquesadam@users.noreply.replit.com> 1756643888 +0000	commit: Add a web server to keep the bot online using Uptime Robot
