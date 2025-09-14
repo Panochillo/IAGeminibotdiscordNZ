@@ -140,7 +140,7 @@ process.on('uncaughtException', error => {
 client.login(config.DISCORD_TOKEN).catch(error => {
     logger.error('Failed to login to Discord:', error);
     console.error('Full Discord login error:', error);
-    
+});
     if (!config.DISCORD_TOKEN) {
         logger.error('DISCORD_TOKEN is missing or empty');
         console.error('DISCORD_TOKEN is missing or empty');
