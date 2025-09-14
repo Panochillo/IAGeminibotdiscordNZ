@@ -74,7 +74,7 @@ async function registerCommands() {
   console.error(error);
   console.error(JSON.stringify(error, null, 2));
 }
-}(;
+}(
 
 // Bot ready event
 client.once('ready', async () => {
