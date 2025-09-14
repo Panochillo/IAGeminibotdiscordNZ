@@ -10,7 +10,7 @@ const app = express();
 
 app.get('/', (req, res) => {
     res.send('GeminiAIBot está en línea 🤖 | Bot Status: Active');
-});
+})
 
 app.get('/status', (req, res) => {
     res.json({
@@ -18,21 +18,21 @@ app.get('/status', (req, res) => {
         bot: 'GeminiAIBot',
         timestamp: new Date().toISOString(),
         uptime: process.uptime()
-    });
-});
+    })
+})
 
 // Start Express server on port 5000
 app.listen(5000, '0.0.0.0', () => {
     logger.info('Uptime Robot server running on port 5000');
     console.log('Servidor listo en puerto 5000');
-});
+})
 
 // Create Discord client with basic intents
 const client = new Client({
     intents: [
         GatewayIntentBits.Guilds
     ]
-});
+})
 
 // Collection to store commands
 client.commands = new Collection();
@@ -82,11 +82,11 @@ client.once('ready', async () => {
     logger.info(`Serving ${client.guilds.cache.size} guilds with ${client.users.cache.size} users`);
     
     // Set bot status
-    client.user.setActivity('Soy GeminiAIBot | /help', { type: 'PLAYING' });
+    client.user.setActivity('Soy GeminiAIBot | /help', { type: 'PLAYING' })
     
     // Register commands
     await registerCommands();
-});
+})
 
 // Handle slash command interactions
 client.on('interactionCreate', async interaction => {
@@ -112,12 +112,12 @@ client.on('interactionCreate', async interaction => {
             .setTimestamp();
 
         if (interaction.replied || interaction.deferred) {
-            await interaction.followUp({ embeds: [errorEmbed], ephemeral: true });
+            await interaction.followUp({ embeds: [errorEmbed], ephemeral: true })
         } else {
-            await interaction.reply({ embeds: [errorEmbed], ephemeral: true });
+            await interaction.reply({ embeds: [errorEmbed], ephemeral: true })
         }
     }
-});
+})
 
 // Note: Prefix commands require MessageContent intent to be enabled in Discord Developer Portal
 // For now, only slash commands are supported
@@ -125,16 +125,16 @@ client.on('interactionCreate', async interaction => {
 // Handle errors
 client.on('error', error => {
     logger.error('Discord client error:', error);
-});
+})
 
 process.on('unhandledRejection', error => {
     logger.error('Unhandled promise rejection:', error);
-});
+})
 
 process.on('uncaughtException', error => {
     logger.error('Uncaught exception:', error);
     process.exit(1);
-});
+})
 
 // Login to Discord
 client.login(config.DISCORD_TOKEN).catch(error => {
@@ -150,6 +150,6 @@ client.login(config.DISCORD_TOKEN).catch(error => {
     }
     
     process.exit(1);
-});
+})
 
 module.exports = client;
