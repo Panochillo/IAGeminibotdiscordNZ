@@ -74,7 +74,7 @@ async function registerCommands() {
   console.error(error);
   console.error(JSON.stringify(error, null, 2));
 }
-}(
+}
 
 // Bot ready event
 client.once('ready', async () => {
@@ -141,7 +141,7 @@ client.login(config.DISCORD_TOKEN).catch(error => {
     logger.error('Failed to login to Discord:', error);
     console.error('Full Discord login error:', error);
 });
-    if (!config.DISCORD_TOKEN) {
+    if (!config.DISCORD_TOKEN) 
         logger.error('DISCORD_TOKEN is missing or empty');
         console.error('DISCORD_TOKEN is missing or empty');
     } else if (config.DISCORD_TOKEN.length < 50) {
